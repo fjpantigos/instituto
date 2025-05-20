@@ -35,4 +35,7 @@ public class StudentData {
 
     @Column(name = "foto", length = 100)
     private String photo;
+
+    @Column(name = "activo")
+    private int active;
 }

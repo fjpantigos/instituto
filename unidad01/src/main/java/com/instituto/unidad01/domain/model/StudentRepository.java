@@ -8,4 +8,9 @@ public interface StudentRepository {
 
     Student findById(String uid);
 
+    Student save(Student student);
+
+    Student update(Student student);
+
+    void delete(String uid);
 }

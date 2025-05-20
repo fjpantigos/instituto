@@ -10,6 +10,7 @@ public record Student(
         String lastName,
         String phone,
         String email,
-        String photo
+        String photo,
+        int active
 ) {
 }
